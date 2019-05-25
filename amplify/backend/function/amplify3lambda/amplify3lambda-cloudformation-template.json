@@ -67,8 +67,8 @@
 				"Runtime": "nodejs8.10",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify3-dev-20190525023248-deployment",
-					"S3Key": "amplify-builds/amplify3lambda-1558767552-latest-build.zip"
+					"S3Bucket": "amplify3-auth-20190525031615-deployment",
+					"S3Key": "amplify-builds/amplify3lambda-1558769282-latest-build.zip"
 				}
 			}
 		},
