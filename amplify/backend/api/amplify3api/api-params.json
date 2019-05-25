@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "amplify3lambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "amplify3api",
+    "apiName": "amplify3api",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplify3lambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify3-dev-20190525023248-authRole",
+        "unAuthRoleName": "amplify3-dev-20190525023248-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplify3lambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

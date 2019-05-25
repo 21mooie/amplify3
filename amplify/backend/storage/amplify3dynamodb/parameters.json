@@ -1,0 +1,5 @@
+{
+    "tableName": "amplify3table",
+    "partitionKeyName": "email",
+    "partitionKeyType": "S"
+}
